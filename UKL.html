@@ -7,10 +7,10 @@
     <style>
         :root {
             --primary: #39405fb3;
-            --secondary: #a2ffe6;
+            --secondary: #15c8bf;
             --text: #1f2937;
-            --background: #cde6ff;
-            --white: #cde6ff;
+            --background: #afffbc;
+            --white: #b9ffc5;
         }
 
         * {
@@ -69,7 +69,7 @@
             text-decoration: none;
         }
 
-        /* Hero Section */
+        /* Hero */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -117,7 +117,7 @@
             object-fit: cover;
         }
 
-        /* Cards Section */
+        /* Cards */
         .services {
             padding: 6rem 2rem;
         }
@@ -174,8 +174,7 @@
 
         .features {
             padding: 6rem 2rem;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: var(--white);
+            background: linear-gradient(135deg, rgba(0, 189, 126, 0.1) 0%, rgba(6, 78, 59, 0.1) 100%);
         }
 
         .features-grid {
@@ -294,26 +293,7 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             opacity: 0.8;
         }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .hero-text h1 {
-                font-size: 3rem;
-            }
-
-            .nav-links {
-                display: none;
-            }
-
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+        
     </style>
 </head>
 <body>
